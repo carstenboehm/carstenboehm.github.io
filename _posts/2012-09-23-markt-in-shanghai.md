@@ -3,40 +3,32 @@ layout: post
 comments: true
 image: 
   feature: feature/cndragon.jpg
-title: "Shanghai: Erste Eindrücke"
+title: "Markt in Shanghai"
 ---
 
 #### (Fotopost)
 
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9200299.jpg"><img src="{{ site.url }}/images/p/2012_china/P9200299_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220334.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220334_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9200309.jpg"><img src="{{ site.url }}/images/p/2012_china/P9200309_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220342.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220342_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9200315.jpg"><img src="{{ site.url }}/images/p/2012_china/P9200315_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220351.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220351_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9220320.jpg"><img src="{{ site.url }}/images/p/2012_china/P9220320_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220360.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220360_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9220342.jpg"><img src="{{ site.url }}/images/p/2012_china/P9220342_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220372.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220372_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9220394.jpg"><img src="{{ site.url }}/images/p/2012_china/P9220394_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9220413.jpg"><img src="{{ site.url }}/images/p/2012_china/P9220413_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/P9220426.jpg"><img src="{{ site.url }}/images/p/2012_china/P9220426_tn.jpg"></a>
+	<a href="{{ site.url }}/images/p/2012_china/markt/P9220375.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220375_tn.jpg"></a>
 	<figcaption></figcaption>
 </figure>
