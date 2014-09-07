@@ -8,7 +8,7 @@ title: cat content
 
 <video width="640" height="360" controls>
   <source src="{{ site.url }}/images/vid/2014-10-15_shanghaicatcontent.mp4" type="video/mp4">
-Dein Browser kann kein Video(-Tag).
+[Video]
 </video>
 
 cat content 
