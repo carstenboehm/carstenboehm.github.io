@@ -2,7 +2,7 @@
 layout: post
 comments: true
 image: 
-  feature: feature/noimg.png
+  feature: feature/cnshanghaiskyline.jpg
 title: cat content
 ---
 
