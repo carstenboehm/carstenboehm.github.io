@@ -11,6 +11,6 @@ title: ninety mile beach
 (Video)
 </video>
 
-(nicht ganz) 90 Meilen Strand[^1], übrigens offizieller Teil des neuseeländischen Straßennetzes (einschließlich der Zufahrt über einen Flusslauf) und schneller als der State Highway… sollte man allerdings nur bei Ebbe machen ;)
+*Nicht ganz* 90 Meilen Strand[^1], übrigens offizieller Teil des neuseeländischen Straßennetzes (einschließlich der Zufahrt über einen Flusslauf) und schneller als der State Highway… sollte man allerdings nur bei Ebbe machen ;)
 
 [^1]: (laut [Wikipedia](http://de.wikipedia.org/wiki/Ninety_Mile_Beach_(Neuseeland)) sind es eher 88km)
