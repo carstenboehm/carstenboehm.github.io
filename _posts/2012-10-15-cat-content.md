@@ -4,10 +4,12 @@ comments: true
 image: 
   feature: feature/noimg.png
 title: cat content
-modified: 2014-08-30
 ---
 
-<video preload="none" src="{{ site.url }}/images/vid/2014-10-15_shanghaicatcontent.mp4"></video>
+<video controls>
+  <source src="{{ site.url }}/images/vid/2014-10-15_shanghaicatcontent.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 cat content 
 (aus shanghai)
