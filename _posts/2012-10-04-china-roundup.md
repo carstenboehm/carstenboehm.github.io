@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "China roundup"
+category: travel
 comments: true
 image: 
   feature: feature/cnwall.jpg
