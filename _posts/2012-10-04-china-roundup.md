@@ -3,7 +3,7 @@ layout: post
 title: "China roundup"
 comments: true
 image: 
-  feature: feature/cndragon.jpg
+  feature: feature/cnwall.jpg
 ---
 
 so, in einer Stunde ist Boarding und in etwa anderthalb gehts weiter… Zeit für ein kleines China-round-up :)
