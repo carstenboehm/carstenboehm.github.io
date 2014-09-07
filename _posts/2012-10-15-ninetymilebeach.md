@@ -11,4 +11,4 @@ title: ninety mile beach
 Dein Browser kann kein Video(-Tag).
 </video>
 
-text
+(nicht ganz) [90 Meilen Strand](http://de.wikipedia.org/wiki/Ninety_Mile_Beach_(Neuseeland)), übrigens offizieller Teil des neuseeländischen Straßennetzes (einschließlich der Zufahrt über einen Flusslauf) und schneller als der State Highway… sollte man allerdings nur bei Ebbe machen ;)
