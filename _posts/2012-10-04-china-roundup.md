@@ -6,7 +6,7 @@ image:
   feature: feature/cnwall.jpg
 ---
 
-so, in einer Stunde ist Boarding und in etwa anderthalb gehts weiter… Zeit für ein kleines China-round-up :)
+So, in einer Stunde ist Boarding und in etwa anderthalb gehts weiter… Zeit für ein kleines China-round-up :)
 
 Ziemlich genau zwei Wochen war ich jetzt hier, davon drei Tage in Peking. Shanghai ist eigentlich mehr so ein großes Shopping-Center, wobei man da etwas differenzieren muss… auf der einen Seite gibts hier Einkaufszentren mit nahezu ausschließlich westlichen Luxusmarken (zu durchaus sportlichen Preisen), dann gibts die Elektromärkte (vier- bis sechsstöckige Gebäude, jede bekannte Marke hat dort ein paar “Stores” mit je 20 bis 30 Quadratmetern und fünf Verkäufern… sich in Ruhe umschauen ist heir nicht, man hat eigentlich immer direkt jemand an seiner Seite der ungeachtet aller Sprachbarrieren versucht seine Laptops/Digicams/Handys zu verkaufen ;)
 
