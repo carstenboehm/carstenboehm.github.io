@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              http://localhost:4000
+title:            holycrêpe.eu
+locale:           de_DE
+url:              http://carstenboehm.github.io
 
 
 # Jekyll configuration
@@ -26,30 +26,54 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: "Carsten Böhm"
+  avatar: carsten.jpg
+  bio: "texttexttext"
+  email: mail@carsten-boehm.de
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: 
+  facebook: carsten.boehm.86
   google:
-    plus: #username
+    plus: 
     analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
+  github:
+  stackoverflow:
+  linkedin:
+  instagram: 
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+
+# prose.io config
+prose:
+  siteurl: 'http://carstenboehm.github.io'
+  media: "images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "comments"
+        field:
+          element: checkbox
+          label: "Comments"
+          value: "true"
+
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
