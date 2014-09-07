@@ -1,0 +1,14 @@
+---
+layout: post
+comments: true
+image: 
+  feature: feature/nzbeach.jpg
+title: ninety mile beach
+---
+
+<video width="640" height="360" controls>
+  <source src="{{ site.url }}/images/vid/2012-10-15_ninetymilebeach.mp4" type="video/mp4">
+Dein Browser kann kein Video(-Tag).
+</video>
+
+text
