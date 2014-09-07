@@ -3,7 +3,7 @@ layout: post
 comments: true
 image: 
   feature: feature/cndragon.jpg
-title: "Ein paar mehr Eindrücke aus Shanghai"
+title: "noch ein paar mehr Eindrücke aus Shanghai"
 ---
 
 #### (Fotopost)
