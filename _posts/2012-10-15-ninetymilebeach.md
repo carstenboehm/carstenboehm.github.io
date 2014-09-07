@@ -4,6 +4,7 @@ comments: true
 image: 
   feature: feature/nzbeach.jpg
 title: ninety mile beach
+category: travel
 ---
 
 <video width="640" height="360" controls>

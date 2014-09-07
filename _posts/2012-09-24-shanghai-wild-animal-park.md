@@ -4,6 +4,7 @@ comments: true
 image: 
   feature: feature/cndragon.jpg
 title: "Shanghai Wild Animal Park"
+category: travel
 ---
 
 #### (Fotopost)

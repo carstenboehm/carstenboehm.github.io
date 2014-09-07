@@ -4,6 +4,7 @@ comments: true
 image: 
   feature: feature/cndragon.jpg
 title: "noch ein paar mehr Eindrücke aus Shanghai"
+category: travel
 ---
 
 #### (Fotopost)

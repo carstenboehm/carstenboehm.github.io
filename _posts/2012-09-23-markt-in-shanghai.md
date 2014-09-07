@@ -4,6 +4,7 @@ comments: true
 image: 
   feature: feature/cndragon.jpg
 title: "Markt in Shanghai"
+category: travel
 ---
 
 #### (Fotopost)
