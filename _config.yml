@@ -7,7 +7,7 @@ url:              http://carstenboehm.github.io
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /posts/:categories/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
