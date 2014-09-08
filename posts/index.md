@@ -1,7 +1,7 @@
 ---
 layout: post-index
-title: "holycrêpe.eu Blog: alle Posts"
-excerpt: "A List of Posts"
+title: "holycrêpe.eu — Blogarchiv"
+excerpt: "Archiv aller Blogposts"
 image:
   feature: feature/nzboard.jpg
 ---
