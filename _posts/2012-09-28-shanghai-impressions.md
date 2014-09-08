@@ -18,6 +18,10 @@ fotos:
       filetn: "P9290925_tn.jpg"
     - filefs: "P9290948.jpg"
       filetn: "P9290948_tn.jpg"
+    - filefs: "P9290957.jpg"
+      filetn: "P9290957_tn.jpg"
+    - filefs: "P9290970.jpg"
+      filetn: "P9290970_tn.jpg"
     - filefs: "P9290986.jpg"
       filetn: "P9290986_tn.jpg"
 ---
