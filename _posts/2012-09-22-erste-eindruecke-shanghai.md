@@ -4,7 +4,7 @@ comments: true
 image: 
   feature: feature/cndragon.jpg
 title: "Shanghai: Erste Eindrücke"
-category: travel
+tages: [travel, photos]
 ---
 
 #### (Fotopost)
