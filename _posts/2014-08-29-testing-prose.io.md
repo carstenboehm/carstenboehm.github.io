@@ -34,7 +34,7 @@ Empfehlenswert ist außerdem, ein paar Settings in der `_config.yml`[^2] zu setz
 ## liquid Templates
 Was auch ganz cool ist ist die Template Engine dahinter. 
 
-Ich will das mal an [diesem Blogeintrag({% post_url 2012-09-29-shanghai-impressions %}) zeigen.
+Ich will das mal an [diesem Blogeintrag]({% post_url 2012-09-29-shanghai-impressions %}) zeigen.
 
 {% highlight html linenos %}
 {% raw %}
