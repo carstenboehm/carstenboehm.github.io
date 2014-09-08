@@ -45,7 +45,11 @@
       {% if page.fotos %}
       {% for foto in page.fotos.images %}
       <figure>
+        {% if foto.filetn %}
 	    <a href="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filetn }}"></a>
+        {% else %}
+	    <a href="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filefs }}"></a>
+        {% endif %}
 	    <figcaption>{{ foto.caption }}</figcaption>
       </figure>
       {% endfor %}
