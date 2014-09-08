@@ -6,7 +6,7 @@ image:
   feature: feature/cndragon.jpg
 ---
 
-Eine wirkliche Webseite (so richtig mit Inhalt) kann ich leider derzeit nicht vorweisen,<br/>
+Eine wirkliche Webseite (so richtig mit Inhalt) kann ich derzeit nicht vorweisen,<br/>
 deshalb bist du hier auf meinen [Blog]({{ site.url }}/posts/) gelandet.<br/><br/>*Blog* ist in diesem Kontext ein Euphemismus für meine unsortierten Gedanken und Fotos zum zum Thema Technik und Reisen :smiley:
 {: .notice}
 
