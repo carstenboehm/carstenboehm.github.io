@@ -116,9 +116,26 @@ fotos:
 {% endraw %}
 {% endhighlight %}
 
-Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. `{% raw %}{{ content }}{% endraw %}`ist der Platzhalter für den (HTML-formatierten) Text des Beitrags.
+Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. Der PLatzhalter für den (HTML-formatierten) Text des Beitrags `{% raw %}{{ content }}{% endraw %}`ist der Platzhalter für den (HTML-formatierten) Text des Beitrags. Hier kann man nun folgendes ergänzen:
 
+{% highlight html linenos %}
+{% raw %}
+{% if page.fotos %}
+{% for foto in page.fotos.images %}
+<figure>
+  {% if foto.filetn %}
+    <a href="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filetn }}"></a>
+  {% else %}
+    <a href="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"></a>
+{% endif %}
+<figcaption>{{ foto.caption }}</figcaption>
+</figure>
+{% endfor %}
+{% endif %} 
+{% endraw %}
+{% endhighlight %}
 
+Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
 
 
 
