@@ -6,7 +6,7 @@ image:
 title: "Teppanyaki"
 tags: [travel, photos, china]
 fotos:
-  filepath: "images/p/2012_china/bejing/"
+  filepath: "images/p/2012_china/teppanyaki/"
   images:
     - filefs: "P9220016.jpg"
       filetn: "P9220016_tn.jpg"
