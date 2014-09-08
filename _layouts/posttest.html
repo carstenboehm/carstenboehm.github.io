@@ -45,7 +45,7 @@
       {% if page.fotos %}
       {% for foto in page.fotos.images %}
       <figure>
-	    <a href="{{ site.url }}/{{ fotos.filepath }}/{{ foto.filefs }}"><img src="{{ site.url }}/{{ fotos.filepath }}/{{ foto.filetn }}"></a>
+	    <a href="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}/{{ foto.filetn }}"></a>
 	    <figcaption>{{ foto.caption }}</figcaption>
       </figure>
       {% endfor %}
