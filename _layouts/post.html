@@ -47,7 +47,7 @@
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong> ist online seit dem <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>{% if page.modified %} und wurde am <time datetime="{{ page.modified | date: "%d.%m.%Y" }}">{{ page.modified | date: "%B %d, %Y" }}</time> zuletzt bearbeitet{% endif %}.</p>
+        <p class="byline"><strong>{{ page.title }}</strong> ist online seit dem <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>{% if page.modified %} und wurde am <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%d.%m.%Y" }}</time> zuletzt bearbeitet{% endif %}.</p>
       </footer>
     </div><!-- /.article-wrap -->
   {% if site.owner.disqus-shortname and page.comments == true %}
