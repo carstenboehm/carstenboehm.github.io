@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Willkommen
+title: Willkommen auf carsten-boehm.de
 comments: false
 image:
-  feature: feature/cnbar.jpg
+  feature: feature/cndragon.jpg
 ---
-
-## Willkommen auf carsten-boehm.de
 
 Hier kommt noch Text hin...
