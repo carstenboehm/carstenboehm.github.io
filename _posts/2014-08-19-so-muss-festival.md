@@ -4,6 +4,7 @@ title: so muss Festival
 comments: true
 image:
   feature: feature/metalfest01.jpg
+tags: [zeug, video, festival, music]
 ---
 [Summer Breeze 2014](http://www.summer-breeze.de), sehr geil wars :metal:
 
