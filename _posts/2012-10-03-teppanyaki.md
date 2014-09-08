@@ -2,7 +2,7 @@
 layout: post
 comments: true
 image: 
-  feature: feature/cnwall
+  feature: feature/cnwall.jpg
 title: "Teppanyaki"
 tags: [travel, photos, china]
 fotos:

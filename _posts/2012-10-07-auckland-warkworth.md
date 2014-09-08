@@ -2,9 +2,9 @@
 layout: post
 comments: true
 image: 
-  feature: feature/cnbejingdach.jpg
+  feature: feature/noimg.png
 title: "Neuseeland - erste Eindrücke (Auckland und Warkworth)…"
-tags: [travel, photos, china]
+tags: [travel, photos, new zealand]
 fotos:
   filepath: "images/p/2012_nz/auckland/"
   images:
