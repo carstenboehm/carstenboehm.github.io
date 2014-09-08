@@ -3,9 +3,8 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: testing prose.io
+title: 'Bloggen mit Jekyll und so..."
 tags: [tech, jekyll]
-published: true
 ---
 
 
