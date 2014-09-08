@@ -135,7 +135,7 @@ Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die n
 {% endraw %}
 {% endhighlight %}
 
-Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` den des Thumbnails. Außerdem kann noch ein Bildtitel (`caption`) angegeben werden. Außer `filefs`sind aber alle Parameter optional.
+Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` den des Thumbnails. Außerdem kann mit `caption` noch ein Bildtitel angegeben werden. Außer `filefs` sind aber alle Parameter optional.
 
 Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
 
