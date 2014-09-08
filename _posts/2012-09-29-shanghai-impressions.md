@@ -4,7 +4,7 @@ comments: true
 image: 
   feature: feature/cnshanghaiskyline.jpg
 title: "noch ein paar mehr Eindrücke aus Shanghai"
-category: travel
+tags: [travel, photos, china]
 ---
 
 #### (Fotopost)
