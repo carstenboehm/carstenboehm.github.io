@@ -1,3 +1,11 @@
-## A New Post
+---
+layout: page
+title: Willkommen
+comments: false
+image:
+  feature: feature/cnbar.jpg
+---
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+## Willkommen auf carsten-boehm.de
+
+Hier kommt noch Text hin...
