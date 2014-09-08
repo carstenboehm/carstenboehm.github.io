@@ -40,9 +40,9 @@ Empfehlenswert ist außerdem, ein paar Settings in der `_config.yml`[^2] zu setz
 
 
 ## liquid Templates
-Was auch ganz cool ist ist die Template Engine dahinter. 
+Was auch ganz cool ist ist die [Liquid](http://wiki.shopify.com/Liquid) Template Engine dahinter, die es recht einfach erlaubt am Erscheinungsbild selbst Hand anzulegen. 
 
-Ich will das mal an [diesem Blogeintrag]({% post_url 2012-09-29-shanghai-impressions %}) zeigen.
+Ein gutes Beispiel dafür was damit geht ist [dieser Blogeintrag]({% post_url 2012-09-29-shanghai-impressions %}). Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
 
 {% highlight html linenos %}
 {% raw %}
@@ -53,7 +53,6 @@ image:
   feature: feature/cnshanghaiskyline.jpg
 title: "noch ein paar mehr Eindrücke aus Shanghai"
 tags: [travel, photos, china]
-published: false
 ---
 
 #### (Fotopost)
@@ -84,6 +83,40 @@ published: false
 </figure>
 {% endraw %}
 {% endhighlight %}
+
+Nicht schön. Man kann dem Post aber auch einfach eine Liste der Bilder, die man zeigen möchte, in den Metadaten (heißt hier *Front Matter*) mitgeben:
+
+{% highlight html linenos %}
+{% raw %}
+---
+layout: post
+comments: true
+image: 
+  feature: feature/cnshanghaiskyline.jpg
+title: "noch ein paar mehr Eindrücke aus Shanghai"
+tags: [travel, photos, china]
+fotos:
+  filepath: "images/p/2012_china/moreshanghai/"
+  images:
+    - filefs: "P9290893.jpg"
+      filetn: "P9290893_tn.jpg"
+    - filefs: "P9290902.jpg"
+      filetn: "P9290902_tn.jpg"
+    - filefs: "P9290915.jpg"
+      filetn: "P9290915_tn.jpg"
+    - filefs: "P9290925.jpg"
+      filetn: "P9290925_tn.jpg"
+    - filefs: "P9290948.jpg"
+      filetn: "P9290948_tn.jpg"
+    - filefs: "P9290986.jpg"
+      filetn: "P9290986_tn.jpg"
+---
+
+#### (Fotopost)
+{% endraw %}
+{% endhighlight %}
+
+Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. `{% raw %}{{ content }}{% endraw %}`ist der Platzhalter für den (HTML-formatierten) Text des Beitrags.
 
 
 
