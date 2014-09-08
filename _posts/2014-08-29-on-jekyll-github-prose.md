@@ -116,7 +116,7 @@ fotos:
 {% endraw %}
 {% endhighlight %}
 
-Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. Der PLatzhalter für den (HTML-formatierten) Text des Beitrags `{% raw %}{{ content }}{% endraw %}`ist der Platzhalter für den (HTML-formatierten) Text des Beitrags. Hier kann man nun folgendes ergänzen:
+Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. Der Platzhalter für den (HTML-formatierten) Text des Beitrags ist `{% raw %}{{ content }}{% endraw %}`. Dahinter kann man nun folgendes ergänzen:
 
 {% highlight html linenos %}
 {% raw %}
