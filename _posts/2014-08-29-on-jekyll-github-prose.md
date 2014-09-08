@@ -13,7 +13,7 @@ published: true
 
 <section id="table-of-contents" class="toc">
   <header>
-    <h3>Overview</h3>
+    <h3>Übersicht</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
