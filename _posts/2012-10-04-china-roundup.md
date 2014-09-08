@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "China roundup"
-category: travel
 comments: true
 image: 
   feature: feature/cnwall.jpg
+tags: [travel, china]
 ---
 
 So, in einer Stunde ist Boarding und in etwa anderthalb gehts weiter… Zeit für ein kleines China-round-up :)
