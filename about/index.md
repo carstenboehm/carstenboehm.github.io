@@ -1,8 +1,7 @@
 ---
 layout: page
 title: about...
-modified: 2014-08-27
-comments: true
+comments: false
 image:
   feature: feature/cnbar.jpg
 ---
