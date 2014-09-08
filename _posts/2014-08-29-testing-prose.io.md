@@ -4,7 +4,7 @@ comments: true
 image: 
   feature: feature/noimg.png
 title: testing prose.io
-category: tech
+tags: [tech, jekyll]
 modified: 2014-08-30
 ---
 
