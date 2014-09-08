@@ -23,28 +23,3 @@ fotos:
 ---
 
 #### (Fotopost)
-
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220334.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220334_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220342.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220342_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220351.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220351_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220360.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220360_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220372.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220372_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
-<figure>
-	<a href="{{ site.url }}/images/p/2012_china/markt/P9220375.jpg"><img src="{{ site.url }}/images/p/2012_china/markt/P9220375_tn.jpg"></a>
-	<figcaption></figcaption>
-</figure>
