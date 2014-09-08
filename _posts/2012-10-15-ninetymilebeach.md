@@ -4,7 +4,7 @@ comments: true
 image: 
   feature: feature/nzbeach.jpg
 title: ninety mile beach
-category: travel
+tags: [zeug, video, travel, new zealand]
 ---
 
 <video width="640" height="360" controls>
