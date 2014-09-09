@@ -8,7 +8,6 @@ tags:
   - tech
   - jekyll
 modified: 2014-09-09
-published: true
 ---
 
 ## prose.io
@@ -43,9 +42,7 @@ image:
 title: "noch ein paar mehr Eindrücke aus Shanghai"
 tags: [travel, photos, china]
 ---
-
 #### (Fotopost)
-
 <figure>
 	<a href="{{ site.url }}/images/p/2012_china/moreshanghai/P9290893.jpg"><img src="{{ site.url }}/images/p/2012_china/moreshanghai/P9290893_tn.jpg"></a>
 	<figcaption></figcaption>
@@ -100,7 +97,6 @@ fotos:
     - filefs: "P9290986.jpg"
       filetn: "P9290986_tn.jpg"
 ---
-
 #### (Fotopost)
 {% endraw %}
 {% endhighlight %}
