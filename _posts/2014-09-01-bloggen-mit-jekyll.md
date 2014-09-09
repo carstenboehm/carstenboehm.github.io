@@ -11,14 +11,13 @@ modified: {}
 published: true
 ---
 
-
 ## prose.io
 Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
 
-#### my $0.02
+### my $0.02
 Prinzipiell zwar nicht unbedingt notwendig da man auch schnell über das Github-Webinterface einen neuen Post anlegen könnte, aber komfortabel ist es schon ;) Vor allem wenn es darum geht, mal schnell ein, zwei Bilder anzuhängen. Das einzige was aus meiner Sicht noch fehlt ist die Möglichkeit, kleine Text-Snippets zu speichern – zum einen für die Metadaten und zum anderen dass man den HTML-Code für schöne Bilder nicht immer irgendwoher[^1] copypasten muss.
 
-#### good to know
+### good to know
 Empfehlenswert ist außerdem, ein paar Settings in der `_config.yml`[^2] zu setzen, so dass Bilder im richtigen Verzeichnis landen und die Metadaten je Post sinnvoll vorausgefüllt werden... die möglichen Optionen sind im [Wiki](https://github.com/prose/prose/wiki/Prose-Configuration) beschrieben.
 
 #### Screenshot
@@ -32,7 +31,7 @@ Empfehlenswert ist außerdem, ein paar Settings in der `_config.yml`[^2] zu setz
 ## liquid Templates
 Was auch ganz cool ist ist die [Liquid](http://wiki.shopify.com/Liquid) Template Engine dahinter, die es recht einfach erlaubt *mal schnell was selber zu basteln* ohne sich tief einarbeiten zu müssen. 
 
-Was damit möglich ist lässt sich an [diesem Blogeintrag]({% post_url 2012-09-29-shanghai-impressions %}) gut zeigen. Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
+Was damit möglich ist lässt sich an [diesem Blogeintrag]({% post_url 2012-09-28-shanghai-impressions %}) gut zeigen. Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
 
 {% highlight html linenos %}
 {% raw %}
@@ -129,7 +128,15 @@ Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` d
 
 Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
 
+Natürlich gibt es auch Nachteile.
 
+Ein weiterer Nachteil ist, dass die Fehlermeldungen die GitHub verschickt nicht immer aussagekräftig sind. Ich hatte via `{% raw %}{% post_url 2014-02-29-beispielpost %}{% endraw %}` einen internen Link gesetzt und irgendwann später den verlinkten Artikel umbenannt. Die E-Mail-Benachrichtigung über den fehlgeschlagenen Build-Versuch sah dann folgendermaßen aus:
+{% highlight html %}
+The page build failed with the following error:
+
+Page build failed. For more information, see https://help.github.com/articles/using-jekyll-with-pages#troubleshooting.
+{% endhighlight %}
+Ohne lokales Jekyll zur Analyse kann man da schon mal einige Stunden den Fehler suchen :angry:
 
 [^1]: [Beispielpost](http://mmistakes.github.io/minimal-mistakes/sample-post-images/) und [zugehöriger Quellcode](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/_posts/2013-05-22-sample-post-images.md)
 [^2]: Die für dieses Blog kann man [hier](https://github.com/carstenboehm/carstenboehm.github.io/blob/master/_config.yml) einsehen.
