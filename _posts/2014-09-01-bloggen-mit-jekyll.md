@@ -105,7 +105,7 @@ fotos:
 {% endraw %}
 {% endhighlight %}
 
-Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. Der Platzhalter für den (HTML-formatierten) Text des Beitrags ist `{% raw %}{{ content }}{% endraw %}`. Dahinter kann man nun folgendes ergänzen:
+Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder aus der Front Matter, die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Felder auswerten. Der Platzhalter für den (HTML-formatierten) Text des Beitrags heißt `{% raw %}{{ content }}{% endraw %}`. Dahinter kann man nun folgendes ergänzen:
 
 {% highlight html linenos %}
 {% raw %}
@@ -124,9 +124,12 @@ Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die n
 {% endraw %}
 {% endhighlight %}
 
-Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` den des Thumbnails. Außerdem kann mit `caption` noch ein Bildtitel angegeben werden. Außer `filefs` sind aber alle Parameter optional.
+Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` den des Thumbnails. Außerdem kann mit `caption` noch ein Bildtitel angegeben werden. Außer `filefs` sind alle Parameter optional.
 
 Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
+
+Im wesentlichen kann Liquid die Basics wie Schleifen, Verzweigungen, und bringt nen Haufen an Formatierungsoptionen mit. Da man aber auch Datenstrukturen aus externen Dateien nutzen kann (die auf die Daten aus `_data/foo.yml` lässt sich beispielsweise über `site.data.foo` zugreifen) kann man damit schon etwas Ordnung schaffen.
+
 
 Natürlich gibt es auch Nachteile.
 
