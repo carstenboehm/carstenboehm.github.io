@@ -130,16 +130,6 @@ Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` d
 Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
 
 
-Natürlich gibt es auch Nachteile.
-
-Ein weiterer Nachteil ist, dass die Fehlermeldungen die GitHub verschickt nicht immer aussagekräftig sind. Ich hatte via `{% raw %}{% post_url 2014-02-29-beispielpost %}{% endraw %}` einen internen Link gesetzt und irgendwann später den verlinkten Artikel umbenannt. Die E-Mail-Benachrichtigung über den fehlgeschlagenen Build-Versuch sah dann folgendermaßen aus:
-{% highlight html %}
-The page build failed with the following error:
-
-Page build failed. For more information, see https://help.github.com/articles/using-jekyll-with-pages#troubleshooting.
-{% endhighlight %}
-Ohne lokales Jekyll zur Analyse kann man da schon mal einige Stunden den Fehler suchen :angry:
-
 
 [^1]: [Beispielpost](http://mmistakes.github.io/minimal-mistakes/sample-post-images/) und [zugehöriger Quellcode](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/_posts/2013-05-22-sample-post-images.md)
 [^2]: Die für dieses Blog kann man [hier](https://github.com/carstenboehm/carstenboehm.github.io/blob/master/_config.yml) einsehen.
