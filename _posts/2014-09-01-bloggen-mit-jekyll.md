@@ -4,9 +4,6 @@ comments: true
 image: 
   feature: feature/noimg.png
 title: bloggen mit Jekyll
-tags: 
-  - tech
-  - jekyll
 modified: 2014-09-09
 ---
 
