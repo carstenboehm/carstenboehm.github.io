@@ -11,16 +11,6 @@ modified: {}
 published: true
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Übersicht</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-
 
 ## prose.io
 Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
