@@ -1,20 +1,13 @@
 ---
 layout: post
-published: false
-title: Untitled
-comments: true
----
-
----
-layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: testing prose.io
+title: bloggen mit Jekyll
 tags: 
   - tech
   - jekyll
-modified: {}
+modified: 2014-09-09
 published: true
 ---
 
