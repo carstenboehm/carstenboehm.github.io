@@ -27,7 +27,7 @@ Empfehlenswert ist außerdem, ein paar Settings in der `_config.yml`[^2] zu setz
 ## liquid Templates
 Was auch ganz cool ist ist die [Liquid](http://wiki.shopify.com/Liquid) Template Engine dahinter, die es recht einfach erlaubt *mal schnell was selber zu basteln* ohne sich tief einarbeiten zu müssen. 
 
-Was damit möglich ist lässt sich an [diesem Blogeintrag]({% post_url 2012-09-29-shanghai-impressions %}) gut zeigen. Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
+Was damit möglich ist lässt sich an [diesem Blogeintrag]({% post_url 2012-09-28-shanghai-impressions %}) gut zeigen. Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
 
 
 
