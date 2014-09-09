@@ -11,17 +11,6 @@ modified: 2014-09-09
 published: true
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Übersicht</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-
-
 ## prose.io
 Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
 
@@ -115,29 +104,6 @@ fotos:
 #### (Fotopost)
 {% endraw %}
 {% endhighlight %}
-
-Schon deutlich übersichtlicher. Das funktioniert, weil Jekyll alle Felder die nicht [global vordefiniert](http://jekyllrb.com/docs/frontmatter/#predefined-global-variables) sind, an die Template-Engine durchreicht. Jetzt muss man nur noch in der `layouts/post.html` eben diese Metadaten auswerten. Der Platzhalter für den (HTML-formatierten) Text des Beitrags ist `{% raw %}{{ content }}{% endraw %}`. Dahinter kann man nun folgendes ergänzen:
-
-{% highlight html linenos %}
-{% raw %}
-{% if page.fotos %}
-{% for foto in page.fotos.images %}
-<figure>
-  {% if foto.filetn %}
-    <a href="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filetn }}"></a>
-  {% else %}
-    <a href="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"></a>
-{% endif %}
-<figcaption>{{ foto.caption }}</figcaption>
-</figure>
-{% endfor %}
-{% endif %} 
-{% endraw %}
-{% endhighlight %}
-
-Hier gibt `filefs` den Dateinamen des Originalbildes an (*fullsize*), `filetn` den des Thumbnails. Außerdem kann mit `caption` noch ein Bildtitel angegeben werden. Außer `filefs` sind aber alle Parameter optional.
-
-Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart sich Tipparbeit und Fehlersuche. Und wenn man mal später das ganze schöner gestalten will ändert man nur noch bequem die Layout-Datei ab.
 
 
 
