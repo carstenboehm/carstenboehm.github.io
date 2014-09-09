@@ -4,8 +4,8 @@ sitemap: false
 
 {% for element in site.static_files %}
 <file>
-  <name>{{% element.extname %}}</name>
-  <path>{{% element.path %}}</path>
-  <modified>{{% element.modified_time %}}</modified>
+  <name>{{ element.extname }}</name>
+  <path>{{ element.path }}</path>
+  <modified>{{ element.modified_time }}</modified>
 </file>
 {% endfor %}
