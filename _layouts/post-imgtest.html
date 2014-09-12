@@ -49,12 +49,12 @@
       {% assign bildpfad = bild.path | remove: bildfilename %}
       {% assign thumbext = page.bilderordner.thumbext | append: page.bilderordner.fileext %}
       {% assign thumbextlength = thumbext | size %}
-      {% assign slicestart = bild.path | size - thumbextlength %}
+      {% assign slicestart = (thumbextlength-1)*(-1) %}
       {% if bildpfad == page.bilderordner.filepath %}
-      {{bild.path}} {{ bild.path | slice: -thumbextlength-1, thumbextlength }}<br/>
+      {{bild.path}} {{ bild.path | slice: slicestart, thumbextlength }}<br/>
       {% endif %}
       {% endfor %}
-      {{ thumbext }}{{ thumbextlength }}
+      {{ thumbext }}{{ slicestart }}
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
