@@ -49,7 +49,7 @@
       {% assign bildpfad = bild.path | remove: bildfilename %}
       {% assign thumbext = page.bilderordner.thumbext | append: page.bilderordner.fileext %}
       {% assign thumbextlength = thumbext | size %}
-      {% assign slicestart = (thumbextlength-1)*(-1) %}
+      {% assign slicestart = 1 | minus: thumbextlength %}
       {% if bildpfad == page.bilderordner.filepath %}
       {{bild.path}} {{ bild.path | slice: slicestart, thumbextlength }}<br/>
       {% endif %}
