@@ -1,0 +1,13 @@
+---
+layout: post-imgtest
+comments: true
+image: 
+  feature: feature/cndragon.jpg
+title: "ein test"
+tags: [travel, photos, china]
+bilderordner:
+  filepath: "images/p/2012_china/1eindruck/"
+  fileext: "jpg"
+---
+
+#### (Fotopost)
