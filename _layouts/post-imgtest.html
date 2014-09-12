@@ -42,9 +42,9 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
-      {{ page.data.bilderordner.filepath }}
+      {{ page.bilderordner.filepath }}
       {% for element in site.static_files %}
-      {% if element.path contains {{ page.data.bilderordner.filepath }} %}
+      {% if element.path contains {{ page.bilderordner.filepath }} %}
       {{element.path}}<br/>
       {% endif %}
       {% endfor %}
