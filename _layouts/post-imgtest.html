@@ -42,7 +42,7 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
-      {% assign bilderarray = site.static_files | where:"extname", page.data.bilderordner.fileext  %}
+      {% assign bilderarray = site.static_files | where:"extname", {{ page.data.bilderordner.fileext }}  %}
       {% for bild in bilderarray%}
       {% assign bildpfadarr = bild.path | split: '/' %}
       {% assign bildfilename = bildpfadarr | last %}
