@@ -44,7 +44,8 @@
       {{ content }}
       {% for bild in site.static_files | where:"bild.extname",{{page.data.bilderordner.fileext}}  %}
       {% assign bildpfadarr = bild.path | split: '/' %}
-      {% assign bildpfad = bild.path | remove: {{ bildpfadarr | last }} %}
+      {% assign bildfilename = bildpfadarr | last %}
+      {% assign bildpfad = bild.path | remove: bildfilename %}
       {{bild.path}} - {{ bildpfad }}<br/>
       {% endfor %}
       <hr />
