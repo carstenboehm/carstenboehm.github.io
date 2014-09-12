@@ -42,6 +42,9 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
+      {% for bild in site.static_files | where:"bild.extname",{{page.data.bilderordner.fileext}}  %}
+      {{bild.path}}<br/></br7>
+      {% endfor %}
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
