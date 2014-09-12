@@ -48,7 +48,7 @@
       {% assign bildfilename = bildpfadarr | last %}
       {% assign bildpfad = bild.path | remove: bildfilename %}
       {% assign thumbext = page.bilderordner.thumbext | append: page.bilderordner.fileext %}
-      {% assign thumbextlength = thumbext | length}
+      {% assign thumbextlength = thumbext | size}
       {% if bildpfad == page.bilderordner.filepath %}
       {{bild.path}} - {{ bildpfad }}<br/>
       {% endif %}
