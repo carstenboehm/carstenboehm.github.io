@@ -42,10 +42,13 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
-      {{ page.bilderordner.filepath }}
-      {% for element in site.static_files %}
-      {% if element.path contains {{ page.bilderordner.filepath }} %}
-      {{element.path}}<br/>
+      {% assign bilderarray = site.static_files %}
+      {% for bild in bilderarray%}
+      {% assign bildpfadarr = bild.path | split: '/' %}
+      {% assign bildfilename = bildpfadarr | last %}
+      {% assign bildpfad = bild.path | remove: bildfilename %}
+      {% if bildpfad == page.bilderordner.filepath %}
+      {{bild.path}} - {{ bildpfad }}<br/>
       {% endif %}
       {% endfor %}
       <hr />
