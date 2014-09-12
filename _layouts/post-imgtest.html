@@ -51,7 +51,7 @@
       {% assign thumbextlength = thumbext | size %}
       {% assign slicestart = 1 | minus: thumbextlength %}
       {% if bildpfad == page.bilderordner.filepath %}
-      {{bild.path}} {{ bild.path | slice: slicestart }}<br/>
+      {{bild.path}} {{ bild.path | slice: -6, 7 }}<br/>
       {% endif %}
       {% endfor %}
       {{ thumbext }}{{ slicestart }}
