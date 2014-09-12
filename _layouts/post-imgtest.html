@@ -47,10 +47,12 @@
       {% assign bildpfadarr = bild.path | split: '/' %}
       {% assign bildfilename = bildpfadarr | last %}
       {% assign bildpfad = bild.path | remove: bildfilename %}
+      {% assign thumbext = bild.thumbext + bild+fileext}
       {% if bildpfad == page.bilderordner.filepath %}
       {{bild.path}} - {{ bildpfad }}<br/>
       {% endif %}
       {% endfor %}
+      {{ thumbext }}
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
