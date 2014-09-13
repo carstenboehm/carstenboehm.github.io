@@ -47,7 +47,7 @@
       {% assign bildfilename = bildpfadarr | last %}
       {% assign bildpfad = bild.path | remove: bildfilename %}
       {% assign filenametemp = bildfilename | remove: page.bilderordner.thumbext %}
-      {% if bildpfad == page.bilderordner.filepath and bildfilename | size == filenametemp | size %}
+      {% if bildpfad == page.bilderordner.filepath and bildfilename == filenametemp %}
       {{ filenametemp }}k<br/>
       {% endif %}
       {% endfor %}
