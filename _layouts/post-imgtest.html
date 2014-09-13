@@ -51,7 +51,7 @@
       {% assign thumbpfad = bild.path | remove: page.bilderordner.fileext | append: page.bilderordner.thumbext %}
       {% assign hasthumb = site.static_files | where: "path", thumbpfad | size%}
       <figure>
-        {% if hasthumb == 1 }
+        {% if hasthumb == 1 %}
         <a href="{{ site.url }}{{ bild.path }}"><img src="{{ site.url }}{{ thumbpfad }}"></a>
         {% else %}
         <a href="{{ site.url }}{{ bild.path }}"><img src="{{ site.url }}{{ bild.path }}"></a>
