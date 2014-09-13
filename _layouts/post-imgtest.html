@@ -55,7 +55,7 @@
       {{bild.path}} {{ thumbtmp }}<br/>
       {% endif %}
       {% endfor %}
-      {{ thumbext }}{{ slicestart }}
+      {{ thumbext }}{{ "hello" | slice: -3, 2  }}
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
