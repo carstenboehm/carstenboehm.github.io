@@ -50,8 +50,9 @@
       {% assign thumbext = page.bilderordner.thumbext | append: page.bilderordner.fileext %}
       {% assign thumbextlength = thumbext | size %}
       {% assign slicestart = 1 | minus: thumbextlength %}
+      {% assign thumbtmp = bildfilename | slice: slicestart, thumbextlength %}
       {% if bildpfad == page.bilderordner.filepath %}
-      {{bild.path}} {{ bildfilename | slice: -6, 2 }}<br/>
+      {{bild.path}} {{ thumbtmp }}<br/>
       {% endif %}
       {% endfor %}
       {{ thumbext }}{{ slicestart }}
