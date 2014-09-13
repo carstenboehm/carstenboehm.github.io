@@ -42,21 +42,17 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
-      {% assign bilderarray = site.static_files %}
-      {% for bild in bilderarray %}
+      {% for bild in site.static_files %}
       {% assign bildpfadarr = bild.path | split: '/' %}
       {% assign bildfilename = bildpfadarr | last %}
       {% assign bildpfad = bild.path | remove: bildfilename %}
-      {% assign thumbext = page.bilderordner.thumbext | append: page.bilderordner.fileext %}
-      {% assign thumbextlength = thumbext | size %}
-      {% assign slicestart = 1 | minus: thumbextlength %}
-      {% assign thumbtmp = bildfilename | slice: slicestart, thumbextlength %}
+      {% assign filenametemp = bildfilename | remove: page.bilderordner.filepath.thumbext %)
       {% if bildpfad == page.bilderordner.filepath %}
-      {{bild.path}} {{ thumbtmp }}<br/>
+      {{ filemanetemp }}<br/>
       {% endif %}
       {% endfor %}
-      {{ thumbext }}{{ "hello" | slice: -3, 2  }}
-      <hr />
+      {{ thumbext }}
+<hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
           {% include _author-bio.html %}
