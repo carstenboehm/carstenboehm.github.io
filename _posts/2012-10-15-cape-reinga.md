@@ -3,7 +3,7 @@ layout: post
 comments: true
 image: 
   feature: feature/nzbeach.jpg
-title: "Nordneuseeland"
+title: "Nordnordneuseeland"
 tags: [travel, photos, new zealand]
 bilderordner:
   filepath: "/images/p/2012_nz/capereinga/"
