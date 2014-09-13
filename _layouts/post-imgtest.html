@@ -48,7 +48,7 @@
       {% assign bildpfad = bild.path | remove: bildfilename %}
       {% assign filenametemp = bildfilename | remove: page.bilderordner.thumbext %}
       {% if bildpfad == page.bilderordner.filepath and bildfilename == filenametemp %}
-      {% assign thumbpfad = bild.path | remove: page.bilderordner.fileext | append: page.bilderordner.thumbext}
+      {% assign thumbpfad = bild.path | remove: page.bilderordner.fileext | append: page.bilderordner.thumbext %}
       {% assign thisthumb = site.static_files %}
       {{ filenametemp }} - {{ thumbpfad }}<br/>
       {% endif %}
