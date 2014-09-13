@@ -29,7 +29,7 @@ kramdown:
 owner:
   name: "Carsten Böhm"
   avatar: carsten.jpg
-  bio: "texttexttext"
+  bio:
   email: mail@carsten-boehm.de
   disqus-shortname: holycrepe
   twitter: 
