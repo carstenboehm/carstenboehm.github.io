@@ -3,7 +3,7 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: "Der hässlichste Code (GitHub-kompatible Gllery mit Jekyll)"
+title: "hässlicher Code (GitHub-kompatible Gallery mit Jekyll)"
 tags: 
   - tech
   - jekyll
@@ -13,6 +13,7 @@ published: false
 
 {% highlight html linenos %}
 {% raw %}
+{% if page.bilderordner %}
 {% for bild in site.static_files %}
 {% assign bildpfadarr = bild.path | split: '/' %}
 {% assign bildfilename = bildpfadarr | last %}
@@ -30,6 +31,7 @@ published: false
   </figure>
 {% endif %}
 {% endfor %}
+{% endif %}
 {% endraw %}
 {% endhighlight %}
 
