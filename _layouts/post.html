@@ -56,7 +56,7 @@
       {% endif %}{% endfor %}{% endif %}
       {% if page.fotos %}
       {% for foto in page.fotos.images %}
-      <figure>
+      <figure>{{ bildfileext }}
         {% if foto.filetn %}
 	    <a href="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filefs }}"><img src="{{ site.url }}/{{ page.fotos.filepath }}{{ foto.filetn }}"></a>
         {% else %}
