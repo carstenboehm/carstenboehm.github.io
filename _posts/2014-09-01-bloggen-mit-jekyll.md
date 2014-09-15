@@ -151,7 +151,7 @@ Der resultierende HTML-Code dürfte annähernd der gleiche sein, aber man spart 
 
 Im wesentlichen kann Liquid die Basics wie Schleifen, Verzweigungen, und bringt nen Haufen an Formatierungsoptionen mit. Da man aber auch Datenstrukturen aus externen Dateien nutzen kann (die auf die Daten aus `_data/foo.yml` lässt sich beispielsweise über `site.data.foo` zugreifen) kann man damit schon etwas Ordnung schaffen.
 
-**Update:** Mittlerweile habe ich auch einen Weg gefunden, einfach ein Bilderverzeichnis an einen Post anzuhängen (auch wenn man ab und an ließt, GitHub Pages ließe keinen Zugriff auf das Dateisystem zu. [Hier weiterlesen]({% post_url 2014-09-13-jekyll-github-gallery %}).
+**Update:** Mittlerweile habe ich auch einen Weg gefunden, einfach ein Bilderverzeichnis an einen Post anzuhängen (auch wenn man ab und an ließt, GitHub Pages ließe keinen Zugriff auf das Dateisystem zu. **[Hier weiterlesen]({% post_url 2014-09-13-jekyll-github-gallery %})**.
 {: .notice}
 
 
