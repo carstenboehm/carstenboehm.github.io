@@ -8,7 +8,7 @@ tags:
   - tech
   - jekyll
 modified: 2014-09-09
-published: true
+published: false
 ---
 
 ## Ausgangssituation
@@ -19,7 +19,7 @@ Nachdem ich in 2012 (anlässlich einer Reise – seitedme hat sich hier auch inh
 	<figcaption>Das alte tumblr-Blog</figcaption>
 </figure>
 
-Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht: Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
+Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht: Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/)), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
 
 
 
