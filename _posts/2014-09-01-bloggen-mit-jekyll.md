@@ -8,7 +8,7 @@ tags:
   - tech
   - jekyll
 modified: 2014-09-09
-published: false
+published: true
 ---
 
 ## Ausgangssituation
