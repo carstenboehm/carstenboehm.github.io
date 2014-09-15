@@ -3,13 +3,17 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: testing prose.io
+title: bloggren mit Jekyll
 tags: 
   - tech
   - jekyll
 modified: 2014-09-09
 published: false
 ---
+
+## Ausgangssituation
+Nachdem ich in 2012 (anlässlich einer Reise – seitedme hat sich hier auch inhaltlich nicht mehr viel getan) bei Tumblr ein Blog erstellt habe, passt zwei Jahre später das Konzept nciht mehr die Texte, Bilder usw... einfach an irgend eine Webplattform zu verfüttern, ohne Exportmöglichkeit und mit der Gefahr dass was kostenlos war plätzlich *premium* oder vom Mutterkonzern[^1] dichtgemacht wird.
+
 
 ## prose.io
 Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
@@ -143,3 +147,5 @@ Ohne lokales Jekyll zur Analyse kann man da schon mal einige Stunden den Fehler 
 
 [^1]: [Beispielpost](http://mmistakes.github.io/minimal-mistakes/sample-post-images/) und [zugehöriger Quellcode](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/_posts/2013-05-22-sample-post-images.md)
 [^2]: Die für dieses Blog kann man [hier](https://github.com/carstenboehm/carstenboehm.github.io/blob/master/_config.yml) einsehen.
+
+[^1]: Tumblr gehört seit Mitte 2013 zu Yahoo.
