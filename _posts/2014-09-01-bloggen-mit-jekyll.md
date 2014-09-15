@@ -21,6 +21,13 @@ Nachdem ich in 2012 (anlässlich einer Reise – seitedme hat sich hier auch inh
 
 Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht: Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/)), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
 
+Jekyll ist ein *Static Site Generator*, d.h. nach jeder Änderung gibt es einen *Build*-Prozess in dem die Quelldateien (HTML-Templates, Layouts, Posts, ...) zu statischen HTML-Seiten zusammengesetzt werden. Die kann man dann einfach via FTP auf jedenbeliebigen Webspace schieben. Oder man benutzt [GitHub Pages](https://pages.github.com/); wenn man auf GitHub ein Repository mit den Quelldateien pflegt läuft der Build-Prozess direkt dort ab und die Seiten sind anschließend unter `deinnutzername.github.io` (oder optional einer eigenen Domain) zugänglich.
+
+Das waren dann auch die Punkte die mich überzeugt haben Jekyll mal auszuprobieren:
++ Ich muss keine Wordpress-Installation pflegen
++ Sehr komfortables Hosting via GitHub Pages (und die Exit-Strategie ist schon eingebaut: gibt es GitHub Pages irgendwann nicht mehr kann ich jederzeit lokal die Seite bauen und auf jeden beliebigen Webspace schieben)
++ Anpassungen sind über die [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) Template Engine recht einfach möglich (siehe unten)
+
 
 
 ## prose.io
