@@ -3,15 +3,33 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: "hässlicher Code (GitHub-kompatible Gallery mit Jekyll)"
+title: "GitHub-kompatible Bildergallerie mit Jekyll"
 tags: 
   - tech
   - jekyll
-published: false
 ---
 
+Wie ich [schon geschrieben habe]({% post_url 2014-09-01-bloggen-mit-jekyll %}), nutze ich für dieses Blog Jekyll in Verbindung mit GitHub Pages. Nun gibt es hier ja so einige Posts, die hauptsächlich bis vollständig aus Fotos bestehen, und diese Fotostrecken liegen der Übersichtlichkeit halber auch bereits in eigenen Verzeichnissen.
+Von daher wäre es eigentlich ganz komfortabel, in der Front Matter einfach das Verzeichnis anzugeben und Jekyll den Rest machen zu lassen. Es gibt auch bereits einige Plugins dazu, die aber bei GitHub deaktiviert sind. Von daher musste eine eigene Lösung her (ich weiß, der Code ist mehr als hässlich, aber ich bin hier durch Liquid Template Sprache beschränkt.
 
-{% highlight html linenos %}
+In meinem Fall gibt es je Fotostrecke ein eigenes Verzeichnis, in dem jeweils das Bild in *Fullsize*- und *Thumbnail*- Auflösung liegen, wobei die Thumbnails durch das Postfix `_tn` gekennzeichnet sind. Diese drei Variablen werden in der *Front Matter* hinterlegt:
+{% highlight text linenos %}
+{% raw %}
+---
+layout: post
+comments: true
+tags: [travel, photos, china]
+bilderordner:
+  filepath: "/images/p/2012_china/1eindruck/"
+  fileext: ".jpg"
+  thumbext: "_tn.jpg"
+---
+{% endraw %}
+{% endhighlight %}
+
+
+
+{% highlight text linenos %}
 {% raw %}
 {% if page.bilderordner %}
 {% for bild in site.static_files %}
@@ -36,7 +54,7 @@ published: false
 {% endhighlight %}
 
 
-{% highlight html linenos %}
+{% highlight text linenos %}
 {% raw %}
 ---
 layout: post
