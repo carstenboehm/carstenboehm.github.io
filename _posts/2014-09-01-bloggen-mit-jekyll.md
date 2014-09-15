@@ -12,26 +12,28 @@ published: false
 ---
 
 ## Ausgangssituation
-Nachdem ich in 2012 (anlässlich einer Reise – seitedme hat sich hier auch inhaltlich nicht mehr viel getan) bei Tumblr ein Blog erstellt habe, passt zwei Jahre später das Konzept nciht mehr die Texte, Bilder usw... einfach an irgend eine Webplattform zu verfüttern, ohne Exportmöglichkeit und mit der Gefahr dass was kostenlos war plätzlich *premium* oder vom Mutterkonzern[^1] dichtgemacht wird.
+Nachdem ich in 2012 (anlässlich einer Reise – seitdem hat sich hier auch inhaltlich nicht mehr viel getan) bei Tumblr ein Blog erstellt habe, passt zwei Jahre später das Konzept nicht mehr für mich. Konkret: Die Texte, Bilder usw... einfach an irgend eine Webplattform zu verfüttern, ohne Exportmöglichkeit und mit der Gefahr dass was kostenlos war plätzlich *premium* oder vom Mutterkonzern[^1] dichtgemacht wird.
 
 <figure>
 	<a href="{{ site.url }}/images/holycrepeold.png"><img src="{{ site.url }}/images/holycrepeold.png"></a>
 	<figcaption>Das alte tumblr-Blog</figcaption>
 </figure>
 
-Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht: Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/)), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
 
-Jekyll ist ein *Static Site Generator*, d.h. nach jeder Änderung gibt es einen *Build*-Prozess in dem die Quelldateien (HTML-Templates, Layouts, Posts, ...) zu statischen HTML-Seiten zusammengesetzt werden. Die kann man dann einfach via FTP auf jedenbeliebigen Webspace schieben. Oder man benutzt [GitHub Pages](https://pages.github.com/); wenn man auf GitHub ein Repository mit den Quelldateien pflegt läuft der Build-Prozess direkt dort ab und die Seiten sind anschließend unter `deinnutzername.github.io` (oder optional einer eigenen Domain) zugänglich.
+## getting startet with Jekyll
+Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht, was dann auch der Anstoß für mich war mich näher damit zu beschäftigen. Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/)), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
+
+Jekyll ist ein *Static Site Generator*, d.h. nach jeder Änderung gibt es einen *Build*-Prozess in dem die Quelldateien (HTML-Templates, Layouts, Posts, ...) zu statischen HTML-Seiten zusammengesetzt werden. Die kann man dann einfach via FTP auf jedenbeliebigen Webspace schieben. Oder man benutzt [GitHub Pages](https://pages.github.com/); wenn man auf GitHub ein Repository mit den Quelldateien pflegt läuft der Build-Prozess direkt dort ab und die Seiten sind anschließend unter `deinnutzername.github.io` (oder optional einer eigenen Domain) zugänglich. Der eigentliche Inhalt wird dabei in Markdown geschrieben (und in `*.md`-Dateien gespeichert), denen man ein *(Front Matter)[http://jekyllrb.com/docs/frontmatter/]* mit Metadaten voranstellen sollte.
 
 Das waren dann auch die Punkte die mich überzeugt haben Jekyll mal auszuprobieren:
 + Ich muss keine Wordpress-Installation pflegen
 + Sehr komfortables Hosting via GitHub Pages (und die Exit-Strategie ist schon eingebaut: gibt es GitHub Pages irgendwann nicht mehr kann ich jederzeit lokal die Seite bauen und auf jeden beliebigen Webspace schieben)
 + Anpassungen sind über die [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) Template Engine recht einfach möglich (siehe unten)
 
+## nächste Schritte 
 
-
-## prose.io
-Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
+### prose.io
+Wer mobil bloggen will kann einfach online im GitHub-Repository direkt den 
 
 ### my $0.02
 Prinzipiell zwar nicht unbedingt notwendig da man auch schnell über das Github-Webinterface einen neuen Post anlegen könnte, aber komfortabel ist es schon ;) Vor allem wenn es darum geht, mal schnell ein, zwei Bilder anzuhängen. Das einzige was aus meiner Sicht noch fehlt ist die Möglichkeit, kleine Text-Snippets zu speichern – zum einen für die Metadaten und zum anderen dass man den HTML-Code für schöne Bilder nicht immer irgendwoher[^1] copypasten muss.
