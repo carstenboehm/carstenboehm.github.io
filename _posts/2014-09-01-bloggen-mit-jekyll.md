@@ -3,7 +3,7 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: bloggren mit Jekyll
+title: bloggen mit Jekyll (und GitHub Pages)
 tags: 
   - tech
   - jekyll
