@@ -15,7 +15,7 @@ Von daher wäre es eigentlich ganz komfortabel, in der Front Matter einfach das 
 
 In der [Doku](http://jekyllrb.com/docs/variables/) wird auf die Variable `site.static_files` hingewiesen, welche in einem Array die Dateinamen (einschl. Pfad) aller statischen Dateien der Webseite, also auch der Bilder, enthält. Ansonsten wäre dieses Vorhaben auch bei GitHub Pages nicht möglich, da dort alle Plugins (die sich der Sprache *Ruby* bedienen, um z.B. auf die Verzeichnisstruktur zuzugreifen) aus Sicherheitsgründen deaktiviert sind.
 
-In meinem Fall gibt es je Fotostrecke ein eigenes Verzeichnis, in dem jeweils das Bild in *Fullsize*- und *Thumbnail*- Auflösung[^1] liegen, wobei die Thumbnails durch das Postfix `_tn` gekennzeichnet sind. Diese drei Variablen werden in der *Front Matter* hinterlegt:
+In meinem Fall gibt es je Fotostrecke ein eigenes Verzeichnis, in dem jedes Bild in *Fullsize*- und (optional) *Thumbnail*- Auflösung[^1] liegt, wobei die Thumbnails durch das Postfix `_tn` gekennzeichnet sind. Diese drei Variablen werden in der *Front Matter* hinterlegt:
 {% highlight text linenos %}
 {% raw %}
 ---
