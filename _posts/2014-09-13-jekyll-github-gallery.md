@@ -10,7 +10,10 @@ tags:
 ---
 
 Wie ich [schon geschrieben habe]({% post_url 2014-09-01-bloggen-mit-jekyll %}), nutze ich für dieses Blog Jekyll in Verbindung mit GitHub Pages. Nun gibt es hier ja so einige Posts, die hauptsächlich bis vollständig aus Fotos bestehen, und diese Fotostrecken liegen der Übersichtlichkeit halber auch bereits in eigenen Verzeichnissen.
-Von daher wäre es eigentlich ganz komfortabel, in der Front Matter einfach das Verzeichnis anzugeben und Jekyll den Rest machen zu lassen. Es gibt auch bereits einige Plugins dazu, die aber bei GitHub deaktiviert sind. Von daher musste eine eigene Lösung her (ich weiß, der Code ist mehr als hässlich, aber das ist zumindest teilweise der Liquid Template Sprache geschuldet). In der [Doku](http://jekyllrb.com/docs/variables/) wird auf die Variable `site.static_files` hingewiesen, welche in einem Array die Dateinamen (einschl. Pfad) aller statischen Dateien der Webseite, also auch der Bilder, enthält. Ansonsten wäre dieses Vorhaben auch bei GitHub Pages nicht möglich, da dort alle Plugins (die sich der Sprache *Ruby* bedienen, um z.B. auf die Verzeichnisstruktur zuzugreifen) aus Sicherheitsgründen deaktiviert sind.
+
+Von daher wäre es eigentlich ganz komfortabel, in der Front Matter einfach das Verzeichnis anzugeben und Jekyll den Rest machen zu lassen. Es gibt auch bereits einige Plugins dazu, die aber bei GitHub deaktiviert sind. Von daher musste eine eigene Lösung her (ich weiß, der Code ist mehr als hässlich, aber das ist zumindest teilweise der Liquid Template Sprache geschuldet). 
+
+In der [Doku](http://jekyllrb.com/docs/variables/) wird auf die Variable `site.static_files` hingewiesen, welche in einem Array die Dateinamen (einschl. Pfad) aller statischen Dateien der Webseite, also auch der Bilder, enthält. Ansonsten wäre dieses Vorhaben auch bei GitHub Pages nicht möglich, da dort alle Plugins (die sich der Sprache *Ruby* bedienen, um z.B. auf die Verzeichnisstruktur zuzugreifen) aus Sicherheitsgründen deaktiviert sind.
 
 In meinem Fall gibt es je Fotostrecke ein eigenes Verzeichnis, in dem jeweils das Bild in *Fullsize*- und *Thumbnail*- Auflösung[^1] liegen, wobei die Thumbnails durch das Postfix `_tn` gekennzeichnet sind. Diese drei Variablen werden in der *Front Matter* hinterlegt:
 {% highlight text linenos %}
