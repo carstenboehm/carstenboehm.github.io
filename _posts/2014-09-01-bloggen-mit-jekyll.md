@@ -46,7 +46,7 @@ Empfehlenswert ist es, ein paar Settings in der `_config.yml`[^3] zu setzen, so 
 </figure>
 
 #### Octopage
-Für iOS-Geräte gibt es außerdem die App [Octopage](https://itunes.apple.com/us/app/octopage-blogging-jekyll-markdown/id649843345?mt=8), die sich zwar auch auf die Basisfunktionen beschränkt aber für 89 Cent macht man wenig Falsch. Wer professionell schreibt wird sich wohl ohnehin mit [Editorial](http://omz-software.com/editorial/) seinen eigenen Workflow zurechtgebastelt haben.
+Für iOS-Geräte gibt es außerdem die App [Octopage](https://itunes.apple.com/us/app/octopage-blogging-jekyll-markdown/id649843345?mt=8), die sich zwar auch auf die Basisfunktionen beschränkt aber für 89 Cent macht man wenig falsch. Wer professionell schreibt wird sich wohl ohnehin mit [Editorial](http://omz-software.com/editorial/) seinen eigenen Workflow zurechtgebastelt haben.
 
 
 ### Eigene Anpassungen
