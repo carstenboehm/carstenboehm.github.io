@@ -14,6 +14,14 @@ published: false
 ## Ausgangssituation
 Nachdem ich in 2012 (anlässlich einer Reise – seitedme hat sich hier auch inhaltlich nicht mehr viel getan) bei Tumblr ein Blog erstellt habe, passt zwei Jahre später das Konzept nciht mehr die Texte, Bilder usw... einfach an irgend eine Webplattform zu verfüttern, ohne Exportmöglichkeit und mit der Gefahr dass was kostenlos war plätzlich *premium* oder vom Mutterkonzern[^1] dichtgemacht wird.
 
+<figure>
+	<a href="{{ site.url }}/images/holycrepeold.png"><img src="{{ site.url }}/images/holycrepeold.png"></a>
+	<figcaption>Das alte tumblr-Blog</figcaption>
+</figure>
+
+Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/) wurde vor kurzem ein Tutorial (Teil [1](http://www.appsncoffee.de/2014/07/01/Tutorial-Teil1-Jekyll-GitHubPages/) [2](http://www.appsncoffee.de/2014/07/09/Tutorial-Teil2-Jekyll-GitHubPages/) [3](http://www.appsncoffee.de/2014/07/15/Tutorial-Teil3-Jekyll-GitHubPages/)) zu [Jekyll](http://jekyllrb.com/) veröffentlicht: Kurz gesagt: Theme suchen (z.B. [hier](http://jekyllthemes.org/), Repository auf GitHub forken und umbenennen, `_config.yml` und Design nach eigenen Wünschen anpassen, loslegen :smile:
+
+
 
 ## prose.io
 Das ist ein Test um mal zu schauen wie das mit dem bloggen via [prose.io](http://prose.io/) so klappt...
