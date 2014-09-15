@@ -50,7 +50,7 @@ Für iOS-Geräte gibt es außerdem die App [Octopage](https://itunes.apple.com/u
 
 
 ### Eigene Anpassungen
-Wie oben schon geschrieben nutzt Jekyll die [Liquid](http://wiki.shopify.com/Liquid) Template Enginer, die es recht einfach erlaubt *mal schnell was selber zu basteln* ohne sich tief einarbeiten zu müssen. 
+Wie oben schon geschrieben nutzt Jekyll die [Liquid](http://wiki.shopify.com/Liquid) Template Engine, die es recht einfach erlaubt mal schnell was selber zu basteln ohne sich tief einarbeiten zu müssen. 
 
 Was damit möglich ist lässt sich an [diesem Blogeintrag]({% post_url 2012-09-28-shanghai-impressions %}) gut zeigen. Der zugrundeliegende Markdown-"Quelltext" sah anfangs so aus:
 
