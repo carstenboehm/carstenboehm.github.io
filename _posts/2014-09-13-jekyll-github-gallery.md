@@ -58,6 +58,6 @@ In der `_layouts/post.html` sorgt nun folgender Code für die Weiterverarbeitung
 Im Prinzip wird also jede einzelne Datei aus `site.static_files` erstmal darauf überprüft, ob sie im angegeben Verzeichnis liegt, die passende Dateiendung aufweist und kein Thumbnail ist. Da in Jekyll aus irgend einem Grund der [split](http://docs.shopify.com/themes/liquid-documentation/filters/string-filters#split)-Filter nicht zu funktionieren scheint, geschieht dies indem versucht wird das Thumbnail-Postfix aus dem Dateinamen zu entfernen und danach die Dateiamen verglichen werden (Übereinstimmung --> kein Thumbnail). Anschließend wird der Thumbnail-Dateinamen synthetisiert und es wird überprüft ob eine entsprechende Datei in der `site.static_files` enthalten ist. Falls ja wird das Thumbnail eingebunden und das Fullsize-Bild verlinkt, andernfalls wird das Fullsize-Bild direkt in das `<img>`-Tag geschrieben. Funktioniert soweit :wink:
 
 #### Todo:
-Bis jetzt werden die Bilder nicht im Feed angzeigt. Dazu muss noch die `feed.xml` angepasst werden.
+Bis jetzt werden die Bilder nicht im Feed angzeigt. Dazu muss noch die `feed.xml` angepasst werden. 
 
 [^1]: Zur Erstellung der Thumbnails bietet sich auf dem Mac das Tool "[ThumbsUp](http://www.devontechnologies.com/products/freeware.html)" an.
