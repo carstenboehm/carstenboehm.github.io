@@ -25,9 +25,9 @@ Also musste eine Alternative her. Auf [Apps N Coffee](http://www.appsncoffee.de/
 Jekyll ist ein *Static Site Generator*, d.h. nach jeder Änderung gibt es einen *Build*-Prozess in dem die Quelldateien (HTML-Templates, Layouts, Posts, ...) zu statischen HTML-Seiten zusammengesetzt werden. Die kann man dann einfach via FTP auf jedenbeliebigen Webspace schieben. Oder man benutzt [GitHub Pages](https://pages.github.com/); wenn man auf GitHub ein Repository mit den Quelldateien pflegt läuft der Build-Prozess direkt dort ab und die Seiten sind anschließend unter `deinnutzername.github.io` (oder optional einer eigenen Domain) zugänglich. Der eigentliche Inhalt wird dabei in Markdown geschrieben (und in `*.md`-Dateien gespeichert), denen man ein (Front Matter)[http://jekyllrb.com/docs/frontmatter/] mit Metadaten voranstellen sollte.
 
 Das waren dann auch die Punkte die mich überzeugt haben Jekyll mal auszuprobieren:
-+ Keine Wordpress-Installation, die man irgendwo pflegen muss
-+ Sehr komfortables Hosting via GitHub Pages (und die Exit-Strategie ist schon eingebaut: gibt es GitHub Pages irgendwann nicht mehr kann ich jederzeit lokal die Seite bauen und auf jeden beliebigen Webspace schieben)
-+ Anpassungen sind über die [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) Template Engine recht einfach möglich (siehe unten)
+* Keine Wordpress-Installation, die man irgendwo pflegen muss
+* Sehr komfortables Hosting via GitHub Pages (und die Exit-Strategie ist schon eingebaut: gibt es GitHub Pages irgendwann nicht mehr kann ich jederzeit lokal die Seite bauen und auf jeden beliebigen Webspace schieben)
+* Anpassungen sind über die [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) Template Engine recht einfach möglich (siehe unten)
 
 ## nächste Schritte 
 
