@@ -34,9 +34,10 @@ In der `_layouts/post.html` sorgt nun folgender Code für die Weiterverarbeitung
 {% for bild in site.static_files %}
 {% assign bildpfadarr = bild.path | split: '/' %}
 {% assign bildfilename = bildpfadarr | last %}
+{% assign bildfileext = bildfilename | split: '.' | last | prepend: '.' %}
 {% assign bildpfad = bild.path | remove: bildfilename %}
 {% assign filenametemp = bildfilename | remove: page.bilderordner.thumbext %}
-{% if bildpfad == page.bilderordner.filepath and bildfilename == filenametemp %}
+{% if bildpfad == page.bilderordner.filepath and bildfilename == filenametemp and bildfileext == page.bilderordner.fileext %}
   {% assign thumbpfad = bild.path | remove: page.bilderordner.fileext | append: page.bilderordner.thumbext %}
   {% assign hasthumb = site.static_files | where: "path", thumbpfad | size%}
   <figure>
