@@ -3,7 +3,7 @@ layout: post
 comments: true
 image: 
   feature: feature/noimg.png
-title: "GitHub-kompatible Bildergallerie mit Jekyll"
+title: "GitHub-kompatible Bildergalerie mit Jekyll"
 tags: 
   - tech
   - jekyll
