@@ -41,7 +41,7 @@
       {% endif %}
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      {{ content }}!BETA!
+      {{ content }}
       {%if page.bilderordner %}{% for bild in site.static_files %}{% assign bildfilename = bild.path | split: '/' | last %}{% assign bildfileext = bildfilename | split: '.' | last | prepend: '.' %}{% assign bildpfad = bild.path | remove: bildfilename %}{% assign filenametemp = bildfilename | remove: page.bilderordner.thumbext %}{% if bildpfad == page.bilderordner.filepath and bildfilename == filenametemp and bildfileext == page.bilderordner.fileext %}{% assign thumbpfad = bild.path | remove: page.bilderordner.fileext | append: page.bilderordner.thumbext %}{% assign hasthumb = site.static_files | where: "path", thumbpfad | size%}
       <figure>{% if hasthumb == 1 %}<a href="{{ site.url }}{{ bild.path }}"><img src="{{ site.url }}{{ thumbpfad }}"></a>{% else %}<a href="{{ site.url }}{{ bild.path }}"><img src="{{ site.url }}{{ bild.path }}"></a>{% endif %}</figure>
       {% endif %}{% endfor %}{% endif %}
